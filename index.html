@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Weather</title>
+		<link rel="stylesheet" href="index.css">
+	</head>
+	<body>
+		<div id="search">
+			<input type="text" name="city">
+			<!--
+			<select name="units" required>
+				<option value="C">Celcius</option>
+				<option value="F">Faherit</option>
+			</select>
+			-->
+			<div>
+				<div>
+					<input type="radio" id="c" value="metric" name="units" checked>
+					<label for="c">C</label>
+				</div>
+				<div>
+					<input type="radio" id="f" value="imperial" name="units">
+					<label for="f">F</label>
+				</div>
+			</div>
+			<button>Go</button>
+		</div>
+		<div id="weather">
+		</div>
+		<script src="index.js"></script>
+	</body>
+</html>

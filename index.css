@@ -1,0 +1,4 @@
+/* Style comes here */
+input[type="text"] {
+	text-transform: capitalize;
+}
